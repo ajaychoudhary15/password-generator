@@ -1,37 +1,34 @@
-# Password Generator
+# 🔐 Password Generator
 
-A responsive and customizable password generator built using HTML, CSS and JavaScript.
+A responsive and customizable password generator built with HTML, CSS and JavaScript.
 
-## Features
+## 🚀 Live Demo
 
-- Generate random passwords
-- Adjustable password length
-- Uppercase letters
-- Lowercase letters
-- Numbers
-- Special characters
+https://ajaychoudhary15.github.io/password-generator/
+
+## ✨ Features
+
+- Generate random passwords instantly
+- Custom password length from 4 to 32 characters
+- Uppercase letters support
+- Lowercase letters support
+- Numbers support
+- Special characters support
 - Password strength indicator
 - Show / Hide password
 - Copy password to clipboard
-- Responsive design
+- Responsive design for desktop and mobile
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript
 
-## How to Run
-
-1. Download or clone this repository.
-2. Open the project folder in VS Code.
-3. Open `index.html` using Live Server.
-4. Generate a password and customize the options.
-
-## Project Structure
+## 📂 Project Structure
 
 ```text
-Password-Generator/
+password-generator/
 │
 ├── index.html
 ├── style.css
