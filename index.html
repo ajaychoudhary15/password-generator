@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="A secure and customizable password generator built with HTML, CSS and JavaScript."
+    >
+
+    <title>Password Generator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <section class="generator">
+
+            <h1>Password Generator</h1>
+
+            <p class="subtitle">
+                Generate strong and secure passwords instantly
+            </p>
+
+            <div class="password-box">
+
+                <input
+                    type="text"
+                    id="password"
+                    placeholder="Your password"
+                    readonly
+                >
+
+                <button id="showBtn" type="button">
+                    Show
+                </button>
+
+                <button id="copyBtn" type="button">
+                    Copy
+                </button>
+
+            </div>
+
+            <div class="strength-section">
+
+                <div class="strength-info">
+
+                    <span>Password Strength</span>
+
+                    <strong id="strengthText">
+                        None
+                    </strong>
+
+                </div>
+
+                <div class="strength-bar">
+
+                    <div id="strengthFill"></div>
+
+                </div>
+
+            </div>
+
+            <div class="length-section">
+
+                <label for="length">
+                    Password Length
+
+                    <strong id="lengthValue">
+                        12
+                    </strong>
+                </label>
+
+                <input
+                    type="range"
+                    id="length"
+                    min="4"
+                    max="32"
+                    value="12"
+                >
+
+            </div>
+
+            <div class="options">
+
+                <label>
+                    <input
+                        type="checkbox"
+                        id="uppercase"
+                        checked
+                    >
+                    Uppercase
+                </label>
+
+                <label>
+                    <input
+                        type="checkbox"
+                        id="lowercase"
+                        checked
+                    >
+                    Lowercase
+                </label>
+
+                <label>
+                    <input
+                        type="checkbox"
+                        id="numbers"
+                        checked
+                    >
+                    Numbers
+                </label>
+
+                <label>
+                    <input
+                        type="checkbox"
+                        id="symbols"
+                        checked
+                    >
+                    Symbols
+                </label>
+
+            </div>
+
+            <button
+                id="generateBtn"
+                class="generate-btn"
+                type="button"
+            >
+                Generate Password
+            </button>
+
+            <p id="message"></p>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
